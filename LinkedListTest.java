@@ -1,10 +1,10 @@
 public class LinkedListTest{
-	public static void main(string[] args){
-		LinkedList obj = new LinkedList(); // to create object of the class.
+	public static void main(String[] args){
+		LinkedList obj1 = new LinkedList(); // to create object of the class.
 
-		obj.addFirst(1);//method calling
-		obj.addLast(2);
-		obj.addlast(3);
+		obj1.addFirst(1);//method calling
+		obj1.addLast(2);
+		obj1.addLast(3);
 
 		//assert is to check wether out code is right or not.
 		assert(obj1.isEmpty() == false);
